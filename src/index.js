@@ -1,3 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
-});
+  let textFun = document.querySelector('form')
+  textFun.addEventListener('sumbit', (e) => {
+    e.preventDefault()
+    
+  })
+})
